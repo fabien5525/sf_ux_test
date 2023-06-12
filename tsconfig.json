@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "Node16",
+      "noImplicitAny": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "moduleResolution":"node",
+      "jsx": "react",
+      "outDir": "./build",
+      "strict": true
+    },
+    "include": ["assets/**/*"]
+  }

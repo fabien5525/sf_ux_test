@@ -1,0 +1,6 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	Hello
+	<div {{ react_component('HomeComponent', { 'controller_name': controller_name } ) }}></div>
+{% endblock %}
